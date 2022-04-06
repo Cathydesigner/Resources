@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 3</title>
+    <!-- google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+    <!--Link CSS Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-white">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="img/l.jpg" alt="logo" width="40px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="home.html" class="nav-link bg-danger">Home</a></li>
+                    <li class="nav-item"><a href="reading.html" class="nav-link bg-primary">Reading</a></li>
+                    <li class="nav-item"><a href="writing.html" class="nav-link bg-success">Writing</a></li>
+                    <li class="nav-item"><a href="listening.html" class="nav-link bg-warning">Listening</a></li>
+                    <li class="nav-item"><a href="speaking.html" class="nav-link bg-danger">Speaking</a></li>
+                    <li class="nav-item"><a href="self.html" class="nav-link bg-primary">Self-Assesment</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Carrousel-->
+    <div class="carousel slide" id="mainSlider" data-bs-ride="carousel"><!--Contenedor del Slider Carrusel-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/bg-01.png" alt="personajes de videojuegos" class="d-block w-100 ">
+            </div>
+            <div class="carousel-item"><!--Items del Slider-->
+                <img src="img/ab.png" alt="Personajes de videojuegos viendo el nombre del juego" class="d-block w-100 ">
+            </div>
+         </div>
+    </div>
+    <!--Ribbon-->
+    <div id="ribbon" class="container-fluid">
+        <div id="birthday" class="container w-50 px-5 rounded">
+            <div class="row align-items-center">
+                <div class="col-sm p-3">
+                    <img src="img/image01.png" alt="aguila calva animada" class="w-75 mx-auto d-block">
+                </div>
+                <div class="col-sm p-3 text-light text-center">
+                    <p class="text-warning h3">Today is a</p>
+                    <h4 class="h2 text-shadow">Learning Day</h4>
+                </div>
+            </div>
+        </div>
+    
+    <!--Separador Amiibos-->
+    <div id="separator-amiibos">
+        <div class="content bg-success">
+        </div>
+   </div>
+    <!--Amiibos-->
+    <div id="amiibos" class="px-5 pb-5 bg-success">
+        <div class="container">
+            <!-- <div class="row"> 
+                <h2 class="text-center text-white text-shadow">Featured Amiibo Figures</h2>
+            </div>-->
+            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
+                <div class="col-sm">
+                    <a href="reading.html"><img src="img/figure01.png" alt="personaje videojuego llamada isabelle" class="w-100 amiibo">
+                    <div class="text-center">
+                       <span class="amiibo-name h5 p-2">Reading</span></a> 
+                 </div>
+                </div>
+                 <div class="col-sm">
+                    <a href="writing.html"> <img src="img/figure02.png" alt="personaje videojuego llamada Kapp´n" class="w-100 amiibo">
+                    <div class="text-center">
+                       <span class="amiibo-name h5 p-2">Writing</span></a> 
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <a href="speaking.html"> <img src="img/figure03.png" alt="personaje videojuego llamada Rover" class="w-100 amiibo">
+                    <div class="text-center">
+                       <span class="amiibo-name h5 p-2">Speaking</span></a> 
+                    </div>
+                </div>
+                    <div class="col-sm">
+                        <a href="listening.html"> <img src="img/figure04.png" alt="personaje videojuego llamada Timmy y Tommy" class="w-100 amiibo">
+                        <div class="text-center">
+                           <span class="amiibo-name h5 p-2">Listening</span></a> 
+                        </div>
+                  </div>
+                </div>
+                  <div class="row py-5">
+                      <div class="col text-center">
+                        <a href="self.html" class="link-dark">
+                            <button class="btn btn-warning btn-lg rounded-pill p-3 fw-bold">Self-Assesment</button>
+                        </a>
+                      </div>
+                  </div>
+                  <div id="separator-amiibos-footer">
+                   </div>
+             </div>
+        </div>
+    
+     <!--Footer-->
+     <div id="footer" class="p-1">
+        <div class="container w-50 pt-1">
+            <div class="row row-cols-md-2 justify-content-md-center">
+                <div class="col">
+                    <a href="#">
+                        <button class="btn btn-lg rounded-pill btn-warning w-100 p-3 shadow fw-bold">Students</button>
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-md-center py-5">
+                <div class="col text-center fw-light">
+                    <h1>Resources for the teaching of English as a Second Language</h1>
+                    <p>Traice Maria Araya Solano </p>
+                    <p>Maria Jose Castillo Cruz</p>
+                    <p>Catherine Vega Meza</p><br>
+                    <h6>Design by Catherine Vega Meza HTML</h6>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--Links de JavaScript-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
